@@ -1,7 +1,7 @@
 nombre = input("Ingrese su nombre: ")
 carrera = input("Ingrese el nombre de su Carrera: ")
 codasig = input("Ingrese el código de la asignatura: ")
-curso = 6
+
 print("===== Perfil del Estudiante =====")
 print(f"Nombre:           {nombre.upper()}")
 print(f"Concatenado:     {carrera[0]+codasig[-1]}")
